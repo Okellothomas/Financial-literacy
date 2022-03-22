@@ -87,3 +87,21 @@ nav img{
   background: #f44336;
   transition: 1s;
 }
+
+@media(max-width: 700px){
+  .text-box h1{
+    font-size: 20px;
+  }
+
+  .nav-links ul li{
+    display: block;
+    width: 200px;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    position: absolute;
+    background: #f44336;
+    text-align: left;
+    z-index: 2;
+  }
+}
