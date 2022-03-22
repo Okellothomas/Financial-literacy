@@ -97,14 +97,16 @@ nav .fa{
   .text-box h1{
     font-size: 20px;
   }
-
   .nav-links ul li{
     display: block;
+  }
+
+  .nav-links{
+    position: absolute;
     width: 200px;
     height: 100vh;
     top: 0;
-    right: 0;
-    position: absolute;
+    right: -200px;
     background: #f44336;
     text-align: left;
     z-index: 2;
@@ -115,5 +117,8 @@ nav .fa{
     color: white;
     display: block;
     cursor: pointer;
+  }
+  .nav-links ul{
+    padding: 30px;
   }
 }
