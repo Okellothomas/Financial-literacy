@@ -10,3 +10,22 @@
   background-size: cover;
   position: relative;
 }
+nav{
+  padding: 2% 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav-links{
+  text-align: right;
+  flex: 1;
+}
+nav-links ul li {
+  padding: 8px 12px;
+  display: inline-block;
+  list-style: none;
+  position: relative;
+}
+nav img{
+  width: 150px;
+}
