@@ -1,0 +1,13 @@
+.card-title {
+    color: #374151;
+}
+.card {
+    overflow: hidden;
+    position: relative;
+}
+.card > img {
+    transition: transform 200ms;
+}
+.card:hover > img {
+    transform: scale(1.05);
+}
