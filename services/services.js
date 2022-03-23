@@ -90,11 +90,11 @@
          function initializ
          --------------------------------------------- */
 		initializ: function () {
-			deliciousaApp.scroll_top();
-			deliciousaApp.mobile_menu();
-			deliciousaApp.sticky_header();
-			deliciousaApp.nav_scroller();
-			deliciousaApp.modal_popup()
+			moneyMatters.scroll_top();
+			moneyMatters.mobile_menu();
+			moneyMatters.sticky_header();
+			moneyMatters.nav_scroller();
+			moneyMatters.modal_popup()
 		},
 	};
 
@@ -104,11 +104,13 @@
 			event.preventDefault();
 			$("#myModal").modal('show');
 			
+			
 		});
 	});
 
 
-	$(document).ready(function(){
+	
+		$(document).ready(function(){
 		$(".btn").click(function(){
 			event.preventDefault();
 			$("#myModal").modal('hide');
@@ -116,10 +118,21 @@
 			
 		});
 	});
+
+$(document).ready(function(){
+	$("#section-btn").on('click',function(){
+		$("div#section-p").toggle();
+	})
+})
+
+$(document).ready(function(){
+	$("")
+})
+	
 	/* ---------------------------------------------
      Document ready function
      --------------------------------------------- */
 	$(function () {
-		deliciousaApp.initializ();
+		moneyMatters.initializ();
 	});
 })(jQuery);
