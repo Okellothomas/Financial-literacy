@@ -13,6 +13,7 @@
   background-size: cover;
   position: relative;
 }
+
 nav{
   padding: 2% 6%;
   display: flex;
@@ -64,7 +65,7 @@ nav img{
   transform: translate(-50%,-50%);
 }
 .text-box h1{
-  font-size: 62px;
+  font-size: 80px;
 }
 .text-box p{
   margin: 10px 0 40px;
@@ -103,11 +104,11 @@ nav .fa{
 
   .nav-links{
     position: absolute;
+    background: #f44336;
     width: 200px;
     height: 100vh;
     top: 0;
     right: -200px;
-    background: #f44336;
     text-align: left;
     z-index: 2;
   }
@@ -119,6 +120,6 @@ nav .fa{
     cursor: pointer;
   }
   .nav-links ul{
-    padding: 30px;
+    padding: 35px;
   }
 }
