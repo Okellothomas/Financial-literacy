@@ -76,6 +76,17 @@ nav img{
   border-radius: 0;
   text-align: left;
 }
+.nav-links ul li:hover .sub-menu-1 ul li:last-child{
+  border-bottom: none;
+}
+
+.nav-links ul li:hover .sub-menu-1 ul li a:hover{
+  color: #f44336;
+}
+
+
+
+
 /* Mid-section */
 
 .text-box{
