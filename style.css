@@ -30,7 +30,11 @@ nav{
   list-style: none;
   position: relative;
 }
-.nav-links ul li::after{
+.nav-links ul li:hover{
+  background: #f44336;
+  border-radius: 3px;
+}
+/* .nav-links ul li::after{
   content: '';
   margin: auto;
   width:0%;
@@ -38,10 +42,10 @@ nav{
   background: #f44336;
   display: block;
   transition: 0.5s;
-}
-.nav-links ul li:hover::after{
+} */
+/* .nav-links ul li:hover::after{
   width: 100%;
-}
+} */
 .nav-links ul li a {
   font-size: 13px;
   color: white;
@@ -51,8 +55,27 @@ nav{
 nav img{
   width: 150px;
 }
+.nav-links ul li:hover .sub-menu-1{
+  display: block;
+  position: absolute;
+  background: rgb(248, 247, 247);
+  margin-top: 15px;
+  margin-left: -15px;
+}
 
+.nav-links ul li:hover .sub-menu-1 ul{
+  display: block;
+  margin: 10px;
+}
 
+.nav-links ul li:hover .sub-menu-1 ul li{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
 /* Mid-section */
 
 .text-box{
