@@ -92,6 +92,9 @@ nav .fa{
   display: none;
 }
 
+.sub-menu-1{
+  display: none;
+}
 
 
 @media(max-width: 700px){
