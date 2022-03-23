@@ -18,7 +18,15 @@
 }
 
 #category{
-  width:100%;
+  width:120%;
+}
+
+#comment
+{
+ margin:0%;
+ width:100%;
+ padding-bottom: 30px;
+ height: 40%;
 }
 
 /* .date{
