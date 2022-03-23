@@ -6,6 +6,30 @@
     
 }
 
+.navbar-brand.site-logo{
+   border:3px solid white;
+   border-radius: 5%;
+   color:white;
+   text-decoration: none;
+}
+
+.done2{
+  display:none;
+}
+
+#category{
+  width:100%;
+}
+
+/* .date{
+  margin-bottom:50%;
+} */
+
+.section-paragraph{
+  display:none;
+
+}
+
 .description{
     padding: 2px;
     box-sizing: border-box;
@@ -322,6 +346,7 @@ cite {
   font-size: 60px;
   font-weight: 700;
   margin-bottom: 40px;
+  margin-top: 40px;
   color: black;
   line-height: 0.97em;
 }
@@ -507,8 +532,8 @@ cite {
 .hero-section {
   position: relative;
   background-position: left top;
-  height: 500px;
-  padding: 200px 0 80px;
+  height: 550px;
+  padding: 100px 0 80px;
 }
 
 
@@ -622,7 +647,7 @@ cite {
 }
 
 .extra-rich-section .section-header {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 .extra-rich-section .section-header .section-title {
   color: white;
