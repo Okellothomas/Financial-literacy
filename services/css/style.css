@@ -14,7 +14,7 @@
 }
 
 .done2{
-  display:none;
+  /* display:none; */
 }
 
 #category{
@@ -414,7 +414,7 @@ cite {
   transition: all 0.5s ease-in-out 0s;
 }
 .mainmenu-wrap .menu > ul > li > a {
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: 500;
   padding: 5px 20px;
