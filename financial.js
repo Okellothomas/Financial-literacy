@@ -24,4 +24,13 @@ $(document).ready(function(){
         $("#Retirement").hide();
         $("#retirements").hide();
     });
+    $("#card2").hover(function(){
+        $("#motivation").show();
+        $("#motivations").show();
+        $("#Motivation").show();
+    },function(){
+        $("#motivation").hide();
+        $("#motivations").hide();
+        $("#Motivation").hide();
+    });
 });
