@@ -7,6 +7,9 @@
   box-sizing: border-box;
 }
 
+
+
+
 .Contact {
   position: relative;
   min-height: 110vh;
@@ -20,19 +23,19 @@
   background-size: cover;
 }
 
-.Contact .Content {
+.Contact .Contactus {
   max-width: 800px;
   text-align: center;
   margin-top: -190px;
 }
 
-.Contact .Content h2 {
+.Contact .Contactus h2 {
   font-size: 36px;
   font-weight: 500;
   color: #fff;
 }
 
-.Contact .Content p {
+.Contact .Contactus p {
   font-weight: 500;
   color: #fff;
 }
