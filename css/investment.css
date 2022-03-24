@@ -7,7 +7,6 @@ body{
     text-decoration: none;
 }
 .navbar{
-  
 }
 #navbarNav{
     margin-left: 50%;
@@ -25,10 +24,52 @@ body{
     
 }
 #header{
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-blend-mode: darken;
 }
 iframe{
     height: 40vh;
     width: 30vw;
+}
+.card{
+    /* height: 66vh; */
+    /* width: 60vw; */
+}
+.card-title{
+    font-family:'Akronim', cursive;
+    text-decoration: underline;
+    color: lightseagreen;
+}
+#success{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;  
+}
+#success{
+    height: 60vh;
+}
+.footer img{
+    height: 35px;
+    width: 35px;
+    border: 1px solid gray;
+    border-radius: 50%;
+
+}
+.footer{
+    width: 100vw;
+    height: 18vh;
+    background-blend-mode: darken;
+}
+#firstImage{
+    height: 150px;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+#secondImage{
+    height: 150px;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 50%;
 }

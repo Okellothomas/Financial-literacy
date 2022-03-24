@@ -35,17 +35,15 @@ $(document).ready(function(){
         $("#saving2").show();
     });
 
-    $("button#shares1").click(function(){
-        $('#Share').hide();
-        $('#shares1').hide();
-        $('#shares').hide();
-        $("#share2").show();
+    $("button#sacos1").click(function(){
+        $('#Sacos').hide();
+        $('#sacos').hide();
+        $('#sacos1').hide();
+        $("#sacos2").show();
     });
 
     // implementing the hover effect.
-    $("card#stock2").hover(function(){
-        // $("img#work1").css('background-color','white').css('opacity','0.2');
-        alert('show me now!');
+    $("#stock2").hover(function(){
     }, function(){
         $("#stock2").hide();
         $('#stocks').show();
@@ -53,24 +51,44 @@ $(document).ready(function(){
         $('#stock1').show();
     });
 
-    $("card#bond2").hover(function(){
-        // $("img#work1").css('background-color','white').css('opacity','0.2');
-        alert('Show me then');
+    $("#bond2").hover(function(){
     }, function(){
-        $('#stocks').show();
-        $('#Stock').show();
-        $('#stock1').show();
-        $("#stock2").hide();
+        $('#bonds').show();
+        $('#Bond').show();
+        $('#bonds1').show();
+        $("#bond2").hide();
     });
 
-    $("card#share2").hover(function(){
-        // $("img#work1").css('background-color','white').css('opacity','0.2');
-        alert('show us how it works')
+    $("#share2").hover(function(){
     }, function(){
-        $('#stocks').show();
-        $('#Stock').show();
-        $('#stock1').show();
-        $("#stock2").hide();
+        $('#Share').show();
+        $('#shares1').show();
+        $('#shares').show();
+        $("#share2").hide();
+    });
+
+    $("#loan2").hover(function(){
+    }, function(){
+        $('#loans').show();
+        $('#Loan').show();
+        $('#loan1').show();
+        $("#loan2").hide();
+    });
+
+    $("#saving2").hover(function(){
+    }, function(){
+        $('#savings').show();
+        $('#Saving').show();
+        $('#saving1').show();
+        $("#saving2").hide();
+    });
+
+    $("#sacos2").hover(function(){
+    }, function(){
+        $('#Sacos').show();
+        $('#sacos').show();
+        $('#sacos1').show();
+        $("#sacos2").hide();
     });
 
 });
