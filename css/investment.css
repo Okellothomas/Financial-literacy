@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Akronim&family=Inspiration&family=Manrope:wght@600&family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akronim&family=Inspiration&family=Manrope:wght@600&family=Source+Serif+Pro&display=swap');
+body{
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+    text-decoration: none;
+}
+.navbar{
+}
+#navbarNav{
+    margin-left: 50%;
+}
+.navbar-brand{
+    border: 3px solid white;
+    border-radius: 5%;
+}
+#invest{
+    margin-top: 10%;
+    color: white;
+    font-family: 'Akronim', cursive;
+    font-size: 64px;
+    margin-bottom: 10%;
+    
+}
+#header{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+iframe{
+    height: 40vh;
+    width: 30vw;
+}
+.card{
+    /* height: 66vh; */
+    /* width: 60vw; */
+}
+.card-title{
+    font-family:'Akronim', cursive;
+    text-decoration: underline;
+    color: lightseagreen;
+}
+#success{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;  
+}
+#success{
+    height: 60vh;
+}
+.footer img{
+    height: 35px;
+    width: 35px;
+    border: 1px solid gray;
+    border-radius: 50%;
+
+}
+.footer{
+    width: 100vw;
+    height: 18vh;
+    background-blend-mode: darken;
+}
+#firstImage{
+    height: 150px;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+#secondImage{
+    height: 150px;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
