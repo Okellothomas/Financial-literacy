@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Contact {
+  position: relative;
+  min-height: 110vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(/Images/Background.jpg);
+  background-size: cover;
+}
+
+.Contact .Content {
+  max-width: 800px;
+  text-align: center;
+  margin-top: -190px;
+}
+
+.Contact .Content h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.Contact .Content p {
+  font-weight: 500;
+  color: #fff;
+}
+
+.Container {
+  width: 100%;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.Container .ContactInfo {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Container .ContactInfo .Box {
+  position: relative;
+  padding: 20px;
+  display: flex;
+}
+
+.Container .ContactInfo .Box .Icon {
+  min-width: 60px;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  font-size: 22px;
+}
+
+.Container .ContactInfo .Box .Text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.Container .ContactInfo .Box .Text h3 {
+  font-weight: 500;
+  color: #00bcd4;
+}
+
+.Form {
+  position: absolute;
+  top: 550px;
+  left: 900px;
+  transform: translate(-50%, -50%);
+  max-width: 550px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.Form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
+
+.Form .input_field {
+  margin-bottom: 10px;
+}
+
+.Form .input_field input[type="text"],
+.Form textarea {
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.Form textarea {
+  resize: none;
+  height: 80px;
+}
+
+.Form .btn input[type="submit"] {
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #00bcd4;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
