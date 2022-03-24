@@ -61,12 +61,14 @@ iframe{
     height: 18vh;
     background-blend-mode: darken;
 }
+
 #firstImage{
     height: 150px;
     width: 150px;
     border: 1px solid white;
     border-radius: 50%;
 }
+
 #secondImage{
     height: 150px;
     width: 150px;
