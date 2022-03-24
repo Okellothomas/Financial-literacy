@@ -90,26 +90,26 @@ nav{
   display: block;
   margin: 10px;
 } */
-.sub-menu-1 {
+.sub-menu-1 ul{
   display: none;
   position: absolute;
   background-color: #f44336;
   z-index: 1;
 }
-/* .sub-menu-1 a{
+.sub-menu-1{
   display: block;
   position: absolute;
   background: rgb(73, 66, 134);
   margin-top: 15px;
   margin-left: -15px;
-}  */
+}  
 
 /* .sub-menu-1 a{
   display: block;
   margin: 10px;
 } */
 
-.sub-menu-1 a{
+.sub-menu-1 ul li a{
   display: block;
   width: 150px;
   padding: 10px;
