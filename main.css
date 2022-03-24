@@ -16,7 +16,7 @@
   align-items: center;
   flex-direction: column;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(/Images/Background.jpg);
+    url(/main/Background.jpg);
   background-size: cover;
 }
 
