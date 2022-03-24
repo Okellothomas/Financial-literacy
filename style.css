@@ -60,20 +60,17 @@ body{
     color: white;
     text-decoration-line: none; 
     margin-left: 20px;
+    font-size: 30px;
 }
 .topnav{
     float: right;
-    color: #f2f2f2;
+    color: #ffffff;
     text-align: center;
     padding: 14px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
 }
 .topnav a:hover {
-    background-color: rgb(3, 94, 94);
+    background-color: rgb(149, 221, 132);
     color: rgb(255, 254, 254);
-}
-.topnav {
-    background-color: rgb(255, 251, 251);
-    overflow: hidden;
 }
