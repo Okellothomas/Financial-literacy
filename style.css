@@ -6,9 +6,6 @@
 
 /* Navigation section */
 
-html{
-  scroll-behavior: smooth;
-}
 
 .header{
   min-height: 100vh;
@@ -17,6 +14,7 @@ html{
   background-position: center;
   background-size: cover;
   position: relative;
+  font-size: 14px;
 }
 
 .nav-logo {
@@ -24,9 +22,21 @@ html{
   border-radius: 5%;
   color: white;
   text-decoration-line: none; 
+  font-size: 20px;
 }
 
-nav{
+.nav-link{
+  font-size: 17px;
+  color: white !important;
+  justify-content: space-between;
+}
+
+.nav-link:hover{
+  background: #f44336;
+  border-radius: 3px;
+}
+
+/* nav{
   padding: 2% 6%;
   display: flex;
   justify-content: space-between;
@@ -45,7 +55,7 @@ nav{
 .nav-links ul li:hover{
   background: #f44336;
   border-radius: 3px;
-}
+} */
 /* .nav-links ul li::after{
   content: '';
   margin: auto;
@@ -146,11 +156,11 @@ nav{
   transform: translate(-50%,-50%);
 }
 .text-box h1{
-  font-size: 80px;
+  font-size: 110px;
 }
 .text-box p{
   margin: 10px 0 40px;
-  font-size: 14px;
+  font-size: 20px;
   color: white;
 }
 .hero-btn{
@@ -158,7 +168,7 @@ nav{
   text-decoration: none;
   display: inline-block;
   border: 1px solid #fff;
-  font-size: 13px;
+  font-size: 18px;
   padding: 12px 34px;
   position: relative;
   cursor: pointer;
