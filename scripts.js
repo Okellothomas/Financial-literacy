@@ -9,3 +9,8 @@ function showMenu(){
 }
 
 
+// Show drop down sub-menu
+
+ $(".active").click(function() {
+   $(".sub-menu-1").toggleClass("show");
+});
