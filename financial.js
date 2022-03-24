@@ -1,0 +1,27 @@
+$(document).ready(function(){
+    $("#card1").hover(function(){
+        $("#insurance").show();
+        $("#Insurance").show();
+    },function(){
+        $("#insurance").hide();
+        $("#Insurance").hide();
+    });
+    $("#card3").hover(function(){
+        $("#budget").show();
+        $("#Budget").show();
+        $("#budgets").show();
+    },function(){
+        $("#budget").hide();
+        $("#Budget").hide();
+        $("#budgets").hide();
+    });
+    $("#card4").hover(function(){
+        $("#retirement").show();
+        $("#Retirement").show();
+        $("#retirements").show();
+    },function(){
+        $("#retirement").hide();
+        $("#Retirement").hide();
+        $("#retirements").hide();
+    });
+});
