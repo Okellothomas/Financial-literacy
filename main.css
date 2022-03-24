@@ -7,9 +7,6 @@
   box-sizing: border-box;
 }
 
-
-
-
 .Contact {
   position: relative;
   min-height: 110vh;
@@ -101,6 +98,8 @@
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #332902;
+  font-size: 35px;
+ 
 }
 
 .Form .input_field {
