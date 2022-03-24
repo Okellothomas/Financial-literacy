@@ -1,3 +1,15 @@
+body {
+    background-image: url("https://constructionexec.com/assets/site_18/images/article/090220094124.jpg?width=1280");
+}
+.nav-logo {
+    border: 3px solid white;
+    border-radius: 5%;
+    color: white;
+    margin-left: 10%;
+}
+.nav-logo:hover{
+    background-color: black;
+}
 .card-title {
     color: #374151;
 }
@@ -13,4 +25,7 @@
 }
 .card p,ul {
     display: none;
+}
+button{
+    border-radius: 10%;
 }
