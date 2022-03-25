@@ -4,10 +4,16 @@
 ### Description
 The Money Matters website provides financial literacy information on various topics.It further allows users to access services such as trainings, webinar sessions and consultation by filling in a form and requesting for any of the aforementioned services. 
 
-### Behaviour Driven Development (BDD)
-INPUT: User selects type of service they want; they fill in their details to book an appointment.
+### Behaviour Driven Development (BDD)### Behaviour Driven Development (BDD)
+Behaviour          |	Input                                           |	Output                                   | 
+-------------------|---------------------------------------------------|----------------------------------------------|
+Click on Links     |User selects type of information they want;        |An informative video is displayed             |
+Select service     |User selects type  service                         |A prompt message is dispalyed and a form.      |       
+Contact Us         |User enters email and other Details                |Mailchimp is Initiated                        |
+   
 
-OUTPUT:Upon clicking the get services button, the user receives a message that their service request has been received and they'll be contacted in 24hrs.
+
+
 
 ### Setup/installation Requirements
  * Access your Github account
