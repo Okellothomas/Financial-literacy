@@ -4,7 +4,7 @@
 ### Description
 The Money Matters website provides financial literacy information on various topics.It further allows users to access services such as trainings, webinar sessions and consultation by filling in a form and requesting for any of the aforementioned services. 
 
-### Behaviour Driven Development (BDD)### Behaviour Driven Development (BDD)
+### Behaviour Driven Development (BDD)
 Behaviour          |	Input                                           |	Output                                   | 
 -------------------|---------------------------------------------------|----------------------------------------------|
 Click on Links     |User selects type of information they want;        |An informative video is displayed             |
