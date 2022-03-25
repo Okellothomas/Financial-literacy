@@ -609,7 +609,7 @@ position: relative;
 
 .hero-section .element-group > .element {
   top: 0px;
-  left: 0px;
+  left:20px;
   -webkit-animation: linear bt-bottomTop-40 4s infinite;
   animation: linear bt-bottomTop-40 4s infinite;
   position: absolute;
@@ -629,12 +629,23 @@ position: relative;
   padding-top: 10px;
 }
 .hero-section .hero-content .hero-title {
-  font-size: 60px;
+  font-size: 70px;
   font-weight: 700;
   color: black;
-  margin-bottom: 80px;
-  margin-top:20px;
+  margin-bottom: 10px;
+  margin-top:80px;
   line-height: 1.2;
+  
+}
+
+.hero-title{
+  margin-top: 80px;
+  margin-right: 100px;
+}
+
+.hero-section .element{
+  padding-bottom: 0px;
+  padding-top: 20px;
 }
 
 
