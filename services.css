@@ -14,7 +14,24 @@
 }
 
 .done2{
-  /* display:none; */
+  display:none;
+}
+
+#footer img{
+    height: 35px;
+    width: 35px;
+    border: 1px solid gray;
+    border-radius: 50%;
+  }
+
+
+#footer{
+  
+    width: 100vw;
+    height: 18vh;
+    margin-top: 0.5%; 
+    /* margin-bottom:0; */
+    background-blend-mode: darken;
 }
 
 #category{
@@ -219,7 +236,7 @@ background-size:contain;
 position: relative;
 
   background-position: center ;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat; 
  
 } 
 
