@@ -11,7 +11,7 @@ OUTPUT:Upon clicking the get services button, the user receives a message that t
 
 ### Setup/installation Requirements
  * Access your Github account
- * Fork the repo from:
+ * Fork the repo from: https://github.com/Okellothomas/Financial-literacy
  * Clone the link
  * Open the link 
 

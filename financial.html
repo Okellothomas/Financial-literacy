@@ -11,52 +11,61 @@
     <link rel="stylesheet" href="financial.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container-fluid">
-        <div class="nav-logo">
-        <a class="navbar-brand" href="#"><strong>MONEY MATTERS</strong></a>
-      </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#navbarResponsive">
+    <section class="header">
+      <nav class="navbar navbar-expand-lg navbar-transparent bg-transparent fs-14">
+        <a class="nav-logo" href="#"><strong>MONEY MATTERS</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="about.html" id="navbarDropdownMenuLink">
+                ABOUT
+              </a>
+            </li>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="services.html" id="navbarDropdownMenuLink">
+                SERVICES
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="investment.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                FINANCIAL CATEGORIES
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="investment.html">Investments</a>
+                <a class="dropdown-item" href="financial.html">Financial Discipline</a>
+              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Financial literacy</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="main.html">CONTACT</a>
             </li>
           </ul>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </section>
     <div class="container">
         <div class="jumbotron">
-          <h1>What is financial Discipline?</h1>      
+          <h2 style="text-align: center;"><b>What is financial Discipline?</b></h2>      
           <p>Financial discipline is the act of setting specific monetary(spending and saving) goals and measuring oneself against how well they are achieved.</p>
+          <p>It also refers to when you are in control of the money you are spending in your business.</p>
         </div>
       </div>
     <div id="discipline" class="offset container mt-3 pb-5">
         <div class="post-heading text-center">
-            <h4 style="color: white;" class="display-5 font-weight-bold">How to achieve Financial Discipline</h4>
+            <h4 style="color: black;" class="display-5 font-weight-bold">How to achieve Financial Discipline</h4>
             <hr class="w-50 mx-auto pb-1">
         </div>
         <div class="row">
-            <div class="col-md-6 pd-5">
-                <div class="card">
+            <div id="card1" class="col-md-6 pd-5">
+                <div class="card" style="width: 35rem; height: 100%;">
                     <img src="http://www.progressiveonline.com.au/wp-content/uploads/2021/12/pic-184.jpg" class="card-img-top" alt="...">
-                    <!-- <iframe width="540" height="345" src="https://www.youtube.com/embed/omiUbbABbWY"></iframe> -->
-                    <div id="card1" class="card-body">
+                    <div class="card-body">
                       <h5 class="card-title"><b>Insurance</b></h5>
                       <p id="insurance" class="card-text">An insurance is a contract in which an insurer indemnifies another against losses from specific contingecies.They include:</p>
                       <ul id="Insurance">
@@ -66,39 +75,50 @@
                         <li>Homeowners or renters Insurance</li>
                         <li>Disability Insurance</li>
                       </ul>
-                      <button><a href="/insurance.html">Insurance</a></button>
-                      <button><a href="/insurance.html">Insurance</a></button>
+                      <button class="btn1"><a href="https://www.investopedia.com/insurance-4427716" target="_blank">Learn More</a></button>
+                      <button class="btn8"><a href="https://www.youtube.com/watch?v=2g8qKIJQGDI&t=20s" target="_blank">Watch Here</a></button>
                     </div>
                   </div>
             </div>
             <div class="col-md-6 pd-5">
-                <div id="card2" class="card">
+                <div id="card2" class="card" style="width: 35rem;">
                     <img src="https://images.unsplash.com/photo-1604594849809-dfedbc827105?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bW9uZXl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title"><b>Self motivation</b></h5>
-                      <p class="card-text"></p>
-                      <button><a href="https://www.investopedia.com/retirement-planning-4689695" target="_blank">Learn More</a></button>
+                      <p id="motivation" class="card-text">If you save me today I will save you tomorrow.</p>
+                      <p id="motivations">How to create a W-E-A-L-T-H mindset</p>
+                      <ul id="Motivation">
+                        <li>W-Write down what you want</li>
+                        <li>E-Envision your future</li>
+                        <li>A-Affirm your desire</li>
+                        <li>L-Listen to your inner voice</li>
+                        <li>T-Take action and transform</li>
+                        <li>H-Hold the vision</li>
+                      </ul>
+                      <button class="btn3"><a href="https://www.wealthmotivation.com/" target="_blank">Learn More</a></button>
+                      <button class="btn7"><a href="https://www.youtube.com/watch?v=0mm57rH1sTE" target="_blank">Watch Here</a></button>
                     </div>
                   </div>
             </div>
             <div class="col-md-6">
-                <div id="card3" class="card">
+                <div id="card3" class="card" style="width: 35rem; margin-top: 5px;">
                     <img src="https://images.unsplash.com/photo-1633158829556-6ea20ad39b4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YnVkZ2V0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
                     <div class="card-body">
                       <h5 class="card-title"><b>Budgeting and Saving</b></h5>
-                      <p id="budget" class="card-text">The process of calculating how much money you must earn or save during a particular period of time and of planning how you will spend it.</p>
+                      <p id="budget" class="card-text">Budgeting is the process of calculating how much money you must earn or save during a particular period of time and of planning how you will spend it.</p>
                       <p id="Budget">Budgeting has a 50 30 20 rule where each stands for specifics as listed below:</p>
                       <ul id="budgets">
                           <li>50-Needs</li>
                           <li>30-Personal Desires</li>
                           <li>20-Savings</li>
                       </ul>
-                      <button><a href="https://www.investopedia.com/budgeting-and-savings-4427755">See More</a></button>
+                      <button class="btn4"><a href="https://www.investopedia.com/budgeting-and-savings-4427755" target="_blank">Learn More</a></button>
+                      <button class="btn9"><a href="https://www.youtube.com/watch?v=HQzoZfc3GwQ" target="_blank">Watch Here</a></button>
                     </div>
                   </div>
             </div>
             <div class="col-md-6">
-              <div id="card4" class="card">
+              <div id="card4" class="card" style="width: 35rem; margin-top: 5px; height: 99%;">
                   <img src="https://www.canarahsbclife.com/content/dam/choice/blog-inner/images/how-to-start-your-retirement-plan.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title"><b>Retirement plan</b></h5>
@@ -111,14 +131,28 @@
                         <li>Choose the best retirement plan for you</li>
                         <li>Select the retirement investments</li>
                     </ul>
-                    <button><a href="https://www.investopedia.com/retirement-planning-4689695">Learn more</a></button>
+                    <button class="btn5"><a href="https://www.investopedia.com/retirement-planning-4689695" target="_blank">Learn more</a></button>
+                    <button class="btn6"><a href="https://www.youtube.com/watch?v=SaC0zOS1UHk&t=26s" target="_blank">Watch Here</a></button>
                   </div>
                 </div>
           </div>
-          <footer>
-            <span>MONEY-MATTERS</span> is your gateway to Financial freedom through online
-            Consultancy and variety of options to choose from.
-          </footer>
+          <div class="footer" style="background:rgba(0, 0, 0, 0.6)url('assets/background/footer.jpg');">
+            <div class="container-fluid" style="text-align: center;">
+              <div class="row">
+                <div class="col-12">
+                  <a href="https://www.facebook.com"><img src="assets/socialmedia/facebook.png" alt=""> </a>
+                  <a href="https://www.instagram.com/"><img src="assets/socialmedia/inst.png" alt=""></a>
+                  <a href="https://www.whatsapp.com/"><img src="assets/socialmedia/whatapp.png" alt=""></a>
+                  <a href="https://www.youtube.com"><img src="assets/socialmedia/youtube.png" alt=""></a>
+                </div>
+                <div class="col-12">
+                  <p>Financial Literacy: <span style="color: rgb(37, 19, 54);">All Rights Reserved</span></p>
+                  <p> @2022</p>
+                </div>
+              </div>
+          </div>
+      </div>
+          
                               
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
