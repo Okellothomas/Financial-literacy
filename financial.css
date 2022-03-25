@@ -3,7 +3,7 @@
 body {
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("https://constructionexec.com/assets/site_18/images/article/090220094124.jpg?width=1280");
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
 }
 header{
     min-height: 100vh;
