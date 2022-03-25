@@ -641,11 +641,16 @@ position: relative;
 .hero-title{
   margin-top: 80px;
   margin-right: 100px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  
+  
 }
 
 .hero-section .element{
   padding-bottom: 0px;
-  padding-top: 20px;
+  padding-top: 0px;
+  padding-bottom: 0%;
 }
 
 
