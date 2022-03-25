@@ -27,8 +27,8 @@ No known bugs
 In case you encounter any bug please contact me asap!
 
 ### Contact
-
+Please contact: thomasolal33@gmail.com
 
  ### Licence
  MIT Licence
- Copyright (c) 2022 
+ Copyright (c) 2022 Money Matters Group
