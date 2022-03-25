@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
 body {
-    background-image: url("https://constructionexec.com/assets/site_18/images/article/090220094124.jpg?width=1280");
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("https://constructionexec.com/assets/site_18/images/article/090220094124.jpg?width=1280");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
 }
 header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/bckground2.jpg);
+    /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/bckground2.jpg); */
     background-position: center;
     background-size: cover;
     position: relative;
@@ -51,6 +55,7 @@ header{
 }
 .card p,ul {
     display: none;
+    font-family: 'Poppins', sans-serif;
 }
 .btn1,
 .btn2,
@@ -66,6 +71,7 @@ header{
     /* top: 50%; */
     border: none;
     border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 .footer img{
     height: 35px;
